@@ -32,7 +32,7 @@ export default function Navbar({ scrolled }) {
 
       {/* menu icon */}
       <button
-        className="md:hidden text-primary cursor-pointer"
+        className="md:hidden text-maintext cursor-pointer"
         onClick={() => setIsOpen(true)}
         aria-label="فتح القائمة"
       >
@@ -40,7 +40,7 @@ export default function Navbar({ scrolled }) {
       </button>
 
       <div
-        className={`md:hidden fixed -top-4 -left-6 h-screen w-72 bg-background shadow-lg transform transition-transform duration-300 z-50 ${
+        className={`md:hidden fixed -top-4 -left-6 h-screen w-72 bg-fourth shadow-lg transform transition-transform duration-300 z-50 ${
           isOpen ? "-translate-x-1" : "-translate-x-full"
         }`}
       >
@@ -53,10 +53,10 @@ export default function Navbar({ scrolled }) {
           <IoMdClose size={28} />
         </button>
         <div className="flex items-center justify-center mt-10">
-          <Image src="/logoo.webp" alt="logo" width={100} height={100} />
+          <Image src="/log.png" alt="logo" width={120} height={100} />
         </div>
 
-        <ul className="flex flex-col gap-6 mt-8 px-6 text-primary text-xl font-semibold">
+        <ul className="flex flex-col gap-6 mt-8 px-6 text-maintext text-xl font-semibold">
           {links.map((link) => (
             <li key={link.id}>
               <Link
@@ -66,7 +66,7 @@ export default function Navbar({ scrolled }) {
               >
                 {link.title}
               </Link>
-              <div className="mt-2 border-t border-third"></div>
+              <div className="mt-2 border-t border-hover"></div>
             </li>
           ))}
         </ul>
