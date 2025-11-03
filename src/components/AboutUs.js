@@ -40,11 +40,11 @@ export default function AboutUs() {
             نحن لا نقدم مجرد خدمة صيانة، بل نقدم تجربة راحة متكاملة تضمن لك
             أجواءً باردة ومنعشة طوال العام.
           </p>
-          <div className="pt-4">
+          <div className="flex items-center justify-center pt-4">
             <Button
               text="تواصل معنا عبر واتساب"
               link="https://wa.me/966551228659"
-              color="third"
+              color="fourth"
             />
           </div>
         </div>

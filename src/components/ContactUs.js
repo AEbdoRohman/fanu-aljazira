@@ -1,9 +1,6 @@
 "use client";
-
 import { useState } from "react";
 import SectionTitle from "./SectionTitle";
-import Button from "./Button";
-import Image from "next/image";
 
 export default function ContactUs() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -21,7 +18,7 @@ export default function ContactUs() {
 
   return (
     <section id="contact" className="py-16 ">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4 ">
         <SectionTitle title="تواصل معنا" />
 
         <div className="flex flex-col md:flex-row items-center gap-3 md:gap-6">
@@ -90,7 +87,7 @@ export default function ContactUs() {
               >
                 ارسل طلبك
               </button>
-              {isSubmitted && <p className="text-green-500">{t("alert")}</p>}
+              {isSubmitted && <p className="text-green-500">تم الارسال</p>}
             </form>
           </div>
 

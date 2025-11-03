@@ -60,7 +60,7 @@ export default function ServicesSection() {
           {acServices.map((service, index) => (
             <Link href="#contact" key={index}>
               <div
-                className="group bg-white rounded-xl overflow-hidden shadow-lg border border-border hover:shadow-2xl hover:-translate-y-2 transition-all duration-500"
+                className="group bg-white rounded-xl overflow-hidden shadow-lg border border-border hover:shadow-2xl "
                 data-aos="fade-up"
                 data-aos-delay={index * 100}
               >

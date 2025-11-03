@@ -9,8 +9,9 @@ export default async function sitemap() {
     },
     { url: `${baseUrl}/#about`, priority: 0.9 },
     { url: `${baseUrl}/#services`, priority: 0.9 },
-    { url: `${baseUrl}/#achievements`, priority: 0.8 },
-    { url: `${baseUrl}/#why-us`, priority: 0.8 },
+    { url: `${baseUrl}/#stats`, priority: 0.8 },
+    { url: `${baseUrl}/#whyus`, priority: 0.8 },
+    { url: `${baseUrl}/#contactCTA`, priority: 0.8 },
     { url: `${baseUrl}/#contact`, priority: 0.8 },
   ];
 }
