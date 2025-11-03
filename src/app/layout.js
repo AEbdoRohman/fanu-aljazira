@@ -18,12 +18,12 @@ export const metadata = {
     "تصليح أجهزة منزلية",
     "خدمة صيانة الرياض",
   ],
-  authors: [{ name: "Ranan" }],
+  authors: [{ name: "Funal Jazirah" }],
   openGraph: {
     title: "خدمة صيانةالمكيفات والأجهزة المنزلية",
     description:
       "نقدّم خدمات صيانة احترافية للثلاجات والغسالات والمكيفات في جميع مناطق الرياض. استجابة سريعة وخدمة مضمونة.",
-    url: "https://www.tabreedkom.com",
+    url: "https://www.funaljazirah.com/",
     siteName: "",
     locale: "ar_SA",
     type: "website",
@@ -45,10 +45,10 @@ export default function RootLayout({ children }) {
       <head>
         <meta
           name="google-site-verification"
-          content="g8k0c6IqvTXtpUH962QIU5iGs8x2BlFOqR80zbEbbyY"
+          content="Trhqo9jpCGGn51VSAYw4cDIv9PgE9J2czZqjhVNJZMc"
         />
       </head>
-      <GoogleTagManager gtmId="GTM-KLGPLGWJ" />
+      <GoogleTagManager gtmId="GTM-5ZS65PZZ" />
       <body className={geistSans.className}>{children}</body>
     </html>
   );

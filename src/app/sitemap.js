@@ -1,5 +1,5 @@
 export default async function sitemap() {
-  const baseUrl = "https://www.tabreedkom.com";
+  const baseUrl = "https://www.funaljazirah.com";
 
   return [
     {

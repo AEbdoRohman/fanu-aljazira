@@ -23,7 +23,7 @@ export default function ContactCTA({ phone = "966509485046" }) {
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-4">
         <a
           href={telHref}
-          className="inline-flex items-center gap-3 bg-third text-maintext px-8 py-3 rounded-lg font-semibold shadow hover:bg-gray-100 transition"
+          className="inline-flex items-center gap-3 bg-fourth text-maintext px-8 py-3 rounded-lg font-semibold shadow hover:bg-fourth/90 transition"
         >
           <FaPhone className="w-5 h-5" />
           اتصل الآن

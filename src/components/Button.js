@@ -6,7 +6,7 @@ export default function Button({ text, link, size, color = "primary" }) {
     primary: "bg-primary hover:bg-primary/90 text-maintext",
     secondary: "bg-secondary hover:bg-secondary/90 text-primary",
     third: "bg-third hover:bg-third/90 border border-primary text-maintext",
-    fourth: "bg-fourth hover:bg-fourth/90 border-primary text-primary",
+    fourth: "bg-fourth hover:bg-fourth/90 border-primary text-maintext",
   };
   return (
     <Link

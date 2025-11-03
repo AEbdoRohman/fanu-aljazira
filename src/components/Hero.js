@@ -36,7 +36,7 @@ export default function Hero() {
           data-aos="fade-up"
           data-aos-delay="400"
         >
-          <Button text="احجز خدمتك الآن" link="/#contact" size color="third" />
+          <Button text="احجز خدمتك الآن" link="/#contact" size color="fourth" />
           <Button
             text="تواصل عبر واتساب"
             link="https://wa.me/966551228659"

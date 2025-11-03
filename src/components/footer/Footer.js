@@ -64,8 +64,11 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <MdOutlineMail />
-                <a href="mailto:info@gmail.com" className="hover:underline">
-                  info@gmail.com
+                <a
+                  href="mailto:fun@funaljazirah.com"
+                  className="hover:underline"
+                >
+                  fun@funaljazirah.com{" "}
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -91,8 +94,6 @@ export default function Footer() {
                 <strong>ساعات العمل:</strong>
                 <br />
                 الأحد - الخميس: 9:00 صباحًا - 5:00 مساءً
-                <br />
-                الجمعة - السبت: مغلق
               </p>
             </div>
           </div>
@@ -101,7 +102,7 @@ export default function Footer() {
         <div className="mt-6 pt-3 border-t border-secondary">
           <div className="mt-3 w-full flex flex-col md:flex-row items-center justify-between gap-2 text-base ">
             <p>
-              جميع الحقوق محفوظة &copy; {new Date().getFullYear()} tabreedkom
+              جميع الحقوق محفوظة &copy; {new Date().getFullYear()} فن الجزيرة
             </p>
             <p className="text-sm flex items-center gap-2">
               تم التطوير بواسطة{" "}
