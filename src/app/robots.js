@@ -1,5 +1,5 @@
 export default function robots() {
-  const baseUrl = "https://www.tabreedkom.com";
+  const baseUrl = "https://www.funaljazirah.com";
 
   return {
     rules: [
